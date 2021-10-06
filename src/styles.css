@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --cream-color: rgba(255, 250, 205, 0.6);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 1rem 2rem;
+  font-family: "Lato", sans-serif;
+  background-color: #262626;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-shadow: 0 0 20px #fff;
+}
+
+span {
+  text-shadow: 0 0 0;
+}
+
+button {
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0.05),
+    rgba(255, 255, 255, 0.03)
+  );
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.45),
+    -5px -5px 10px 2px rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #262626;
+  border: 0px solid var(--cream-color);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(255, 254, 166);
+  color: #222;
+  box-shadow: 0 5px 20px var(--cream-color);
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: auto;
+}
+
+li {
+  display: block;
+  box-sizing: border-box;
+  width: 98%;
+  height: 20%;
+  margin: 1.5rem auto;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #666;
+  transition: all 0.3s ease-in-out;
+  box-shadow: -0px 3px 10px #000;
+}
+
+li:hover {
+  box-shadow: -0px 5px 20px var(--cream-color);
+  background-color: rgb(252, 251, 207);
+  color: #222;
+  width: 100%;
+}
+
+.color-grey:hover {
+  color: #999;
+}
+
+.block-inline-image {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  /* width: 15%; */
+  width: 20%;
+  max-width: 90px;
+  min-width: 70px;
+  overflow: hidden;
+  height: inherit;
+}
+
+img {
+  display: block;
+  aspect-ratio: 1/1;
+  width: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+.block-inline-content {
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: inline-block;
+  width: 80%;
+}
+
+iframe {
+  display: none;
+}
