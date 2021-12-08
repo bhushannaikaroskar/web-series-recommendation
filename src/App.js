@@ -33,7 +33,7 @@ var webSeriesDictionary = {
       name: "Kota Factory",
       starRatings: "4.5/5",
       imageURL:
-        "https://thevidetimes.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-02-at-9.51.03-PM.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIO2FYfWx39SrV1VSecyJdLVC4Q-KkIBkPVQ&usqp=CAU",
       description:
         "Dedicated to Shrimati SL Loney ji, Shri Irodov ji and Maanniya HC Verma ji, 'Kota Factory' is TVF's latest original. India's first 'Black and White' show highlights the problems present day IIT-JEE aspirants face in their day-to-day lives."
     },
